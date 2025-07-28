@@ -1,0 +1,102 @@
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\appsettings.json
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Hw5forExam.staticwebassets.runtime.json
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Hw5forExam.staticwebassets.endpoints.json
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Hw5forExam.exe
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Hw5forExam.deps.json
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Hw5forExam.runtimeconfig.json
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Hw5forExam.dll
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Hw5forExam.pdb
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.AssemblyInfoInputs.cache
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.AssemblyInfo.cs
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.CoreCompileInputs.cache
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.RazorAssemblyInfo.cache
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.RazorAssemblyInfo.cs
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\scopedcss\bundle\Hw5forExam.styles.css
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\scopedcss\projectbundle\Hw5forExam.bundle.scp.css
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.dll
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\refint\Hw5forExam.dll
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.pdb
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.genruntimeconfig.cache
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\ref\Hw5forExam.dll
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alida\source\repos\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.AssemblyReference.cache
+C:\Users\alida\source\repos\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.Up2Date
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\appsettings.json
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Hw5forExam.staticwebassets.runtime.json
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Hw5forExam.staticwebassets.endpoints.json
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Hw5forExam.exe
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Hw5forExam.deps.json
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Hw5forExam.runtimeconfig.json
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Hw5forExam.dll
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Hw5forExam.pdb
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alida\Desktop\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.AssemblyReference.cache
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.AssemblyInfoInputs.cache
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.AssemblyInfo.cs
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.CoreCompileInputs.cache
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.RazorAssemblyInfo.cache
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.RazorAssemblyInfo.cs
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\scopedcss\bundle\Hw5forExam.styles.css
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\scopedcss\projectbundle\Hw5forExam.bundle.scp.css
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.Up2Date
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.dll
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\refint\Hw5forExam.dll
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.pdb
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\Hw5forExam.genruntimeconfig.cache
+C:\Users\alida\Desktop\Hw5forExam\obj\Debug\net8.0\ref\Hw5forExam.dll
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.AssemblyReference.cache
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.AssemblyInfoInputs.cache
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.AssemblyInfo.cs
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.CoreCompileInputs.cache
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.RazorAssemblyInfo.cache
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.RazorAssemblyInfo.cs
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\appsettings.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Hw5forExam.staticwebassets.runtime.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Hw5forExam.staticwebassets.endpoints.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Hw5forExam.exe
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Hw5forExam.deps.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Hw5forExam.runtimeconfig.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Hw5forExam.dll
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Hw5forExam.pdb
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\scopedcss\bundle\Hw5forExam.styles.css
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\scopedcss\projectbundle\Hw5forExam.bundle.scp.css
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.csproj.Up2Date
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.dll
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\refint\Hw5forExam.dll
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.pdb
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\Hw5forExam.genruntimeconfig.cache
+C:\Users\alida\Desktop\ASP EXAM\Hw5forExam\obj\Debug\net8.0\ref\Hw5forExam.dll

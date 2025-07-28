@@ -1,0 +1,204 @@
+﻿@page
+@model Hw5forExam.Pages.CvFormModel
+@{
+    ViewData["Title"] = "Cv Page";
+    Random random = new Random();
+    int dynamicNumber = random.Next(1, 100);
+}
+
+<style>
+    body {
+        background-color: #eef2f7;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    form {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+        form div {
+            margin-bottom: 15px;
+        }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    input[type="file"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+    input:focus,
+    select:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 3px #80bdff;
+    }
+
+    .verification-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+        .verification-group input[type="text"],
+        .verification-group input[type="number"] {
+            width: 50px;
+            text-align: center;
+        }
+
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    .validation-error {
+        color: #dc3545;
+        font-size: 0.9em;
+    }
+</style>
+
+<div>
+    <h1>
+        Fill your @ViewData["Title"]
+    </h1>
+</div>
+<form method="post" asp-page="CvForm" asp-route-randomNum="@dynamicNumber" enctype="multipart/form-data">
+    <div>
+        <label asp-for="view.FName"></label>
+        <input asp-for="view.FName" name="FName" />
+        <span asp-validation-for="view.FName" class="validation-error" data-valmsg-for="FName"></span>
+    </div>
+    <div>
+        <label asp-for="view.LName"></label>
+        <input asp-for="view.LName" name="LName" />
+        <span asp-validation-for="view.LName" class="validation-error" data-valmsg-for="LName"></span>
+    </div>
+    <div>
+        <label asp-for="view.BDay"></label>
+        <input asp-for="view.BDay" name="Bday" />
+        <span asp-validation-for="view.BDay" class="validation-error" data-valmsg-for="Bday"></span>
+    </div>
+    <div>
+        <label>Nationality</label>
+        <select asp-for="view.Nationality" asp-items="@Model.Nationality" name="Nationality"></select>
+        <br/>
+        <span asp-validation-for="view.Nationality" class="validation-error" data-valmsg-for="Nationality"></span>
+    </div>
+    <div>
+        <label>Sex:</label>
+        @foreach (var sex in Model.SexOptions)
+        {
+            <label>
+                <input type="radio" name="Sex" value="@sex" @(Model.view.Sex == sex ? "checked" : "") />
+                @sex
+            </label>
+        }
+        <span asp-validation-for="view.Sex" class="validation-error" data-valmsg-for="Sex"></span>
+    </div>
+    <div>
+        <label>Skills:</label>
+      
+        @foreach (var skill in Model.SkillOptions)
+        {
+            <label>
+                <input type="checkbox" name="Skills" value="@skill"
+                       @(Model.view.Skills != null && Model.view.Skills.Contains(skill) ? "checked" : "") />
+                @skill
+            </label>
+        }
+        <span asp-validation-for="view.Skills" class="validation-error" data-valmsg-for="Skills"></span>
+    </div>
+    <div>
+        <label asp-for="view.Email"></label>
+        <input asp-for="view.Email" name="Email" />
+        <span asp-validation-for=view.Email" class="validation-error" data-valmsg-for="Email"></span>
+    </div>
+    <div>
+        <label asp-for="view.EmailConfirmation"></label>
+        <input asp-for="view.EmailConfirmation" name="EmailConfirmation" />
+        <span asp-validation-for="view.EmailConfirmation" class="validation-error" data-valmsg-for="EmailConfirmation"></span>
+    </div>
+    <div>
+        <label asp-for="view.Password"></label>
+        <input asp-for="view.Password" type="password" name="Password" />
+        <span asp-validation-for="view.Password" class="validation-error" data-valmsg-for="Password"></span>
+    </div>
+    <div>
+        <label>Verification:</label>
+        <div class="verification-group">
+            <input asp-for="view.Verification1" name="Verification1" size="2" />
+            <span>+</span>
+            <input asp-for="view.Verification2" name="Verification2" size="2" />
+            <span>=</span>
+            <input asp-for="view.SumAnswer" name="SumAnswer" size="2" />
+        </div>
+        
+    </div>
+    <div>
+        <label asp-for="view.Photo"></label>
+        <input asp-for="view.Photo" type="file" name="Photo" />
+        <span asp-validation-for="view.Photo" class="validation-error" data-valmsg-for="Photo"></span>
+    </div>
+
+    <input type="submit" />
+</form>
+
+@* <div style="margin-bottom: 15px;">
+    <label>Color(s)</label><br />
+    <select asp-for="carView.colors" name="colors" multiple style="width: 100%; height: 100px;">
+        <option>Red</option>
+        <option>Green</option>
+        <option>Blue</option>
+        <option>Yellow</option>
+    </select>
+    <span asp-validation-for="carView.colors" class="validation-error" data-valmsg-for="colors"></span>
+</div> *@
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+@*  @foreach (var skill in new List<string> { "Java", "Python", "ASP.NET" })
+{
+    <div>
+        <input type="checkbox" name="Skills" value="@skill" checked="@Model.ViewModel.Skills.Contains(skill)" /> @skill
+    </div>
+}  *@

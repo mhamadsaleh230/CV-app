@@ -1,0 +1,89 @@
+﻿@page "{id:int}/{randomNum:int}"
+@model Hw5forExam.Pages.SummaryModel
+@{
+}
+
+<style>
+    body {
+        background-color: #eef2f7;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .summary-container {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+        .summary-container h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+    .summary-row {
+        margin-bottom: 15px;
+        font-size: 1.1em;
+    }
+
+    .summary-label {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .profile-photo {
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 10px;
+        display: block;
+        margin: 20px auto;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+</style>
+
+<div class="summary-container">
+    <h1>CV Summary</h1>
+
+    <div class="summary-row summary-debug">
+        <span class="summary-label">Random number:</span> @Model.randomNum
+    </div>
+
+    <div class="summary-row">
+        <span class="summary-label">First Name:</span> @Model.cv.FName
+    </div>
+
+    <div class="summary-row">
+        <span class="summary-label">Last Name:</span> @Model.cv.LName
+    </div>
+
+    <div class="summary-row">
+        <span class="summary-label">Birthday:</span> @Model.cv.BDay.ToString("yyyy-MM-dd")
+    </div>
+
+    <div class="summary-row">
+        <span class="summary-label">Email:</span> @Model.cv.Email
+    </div>
+
+    <div class="summary-row">
+        <span class="summary-label">Nationality:</span> @Model.cv.Nationality
+    </div>
+
+    <div class="summary-row">
+        <span class="summary-label">Gender:</span> @Model.cv.Sex
+    </div>
+
+    <div class="summary-row">
+        <span class="summary-label">Skills:</span> @string.Join(", ", Model.cv.Skills ?? new List<string>())
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.cv.PhotoFileName))
+    {
+        <div class="summary-row">
+            <span class="summary-label">Uploaded Photo:</span><br />
+            <img src="@Url.Content($"~/uploads/{Model.cv.PhotoFileName}")" alt="User Photo" class="profile-photo" />
+        </div>
+    }
+</div>
